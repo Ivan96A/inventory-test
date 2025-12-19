@@ -2,6 +2,8 @@
 
 A full-stack inventory management system built with TypeScript, Node.js, Express, React, and Docker.
 
+(there is an issue with focus loss on search inputs, but I hope it's not a big deal, did not get time to fix it)
+
 ## Run Instructions
 
 **With Docker (Recommended):**
