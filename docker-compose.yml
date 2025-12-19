@@ -48,6 +48,8 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: inventory-frontend
+    environment:
+      - VITE_API_URL=backend:3001
     ports:
       - "80:80"
     depends_on:
