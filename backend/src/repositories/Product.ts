@@ -9,7 +9,7 @@ export const createProduct = async (input: CreateProductInput): Promise<Product>
     category: input.category,
     price: input.price,
     quantity: input.quantity,
-    createAt: new Date(),
+    createdAt: new Date(),
     updatedAt: new Date()
   });
 
