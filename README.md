@@ -28,6 +28,7 @@ cd backend && npm test
 ## API Sketch
 
 ```
+GET    /api/dashboard                 - Get dashboard statistics
 POST   /api/stores                    - Create store
 GET    /api/stores/:id                - Get store by ID
 PUT    /api/stores/:id                - Update store
